@@ -1,0 +1,121 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+body {
+    background-color: #00BAAD;
+}
+.flex{
+    display: flex;
+}
+.back {
+    width: 100%;
+    height: 30px;
+    display: flex;
+    justify-content: space-between;
+    padding: 0 20px;
+    margin-top: 20px;
+}
+.back a img {
+    width: 30px;
+    height: 30px;
+}
+.logo{
+    margin: 20px;
+}
+.icon{
+    width: 100%;
+    height: 20px;
+    display: flex;
+    justify-content: center;
+}
+.icon li{
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+    background-color: black;
+    margin-right: 10px;
+    opacity: .5;
+}
+.icon li.act{
+    opacity: 1;
+}
+.message{
+    width: 90%;
+    margin: 0 auto;
+    background-color: #D5F0EE;
+    border-top-left-radius: 30px;
+    border-top-right-radius: 30px;
+    padding-top: 20px;
+    height: 320px;
+    position: relative;
+
+}
+.title{
+    font-weight: 500;
+    margin-left: 20px;
+    font-size: 25px;
+}
+.color{
+    width: 80%;
+    margin: 20px auto;
+}
+.color p{
+    color: #ccc;
+}
+.background{
+    display: flex;
+    margin-top: 10px;
+}
+.background li{
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background-color: black;
+    margin-left:10px;
+}
+.title2{
+    font-size: 20px;
+    font-weight: 500;
+    margin-left: 20px;
+}
+.text{
+    font-size: 12px;
+    margin-top: 20px;
+    padding: 0 3px;
+    color: #ccc;
+}
+.background li.act3{
+    background-color: #FDB098;
+}
+.background li.act4{
+    background-color: #98E5FD;
+}
+.background li.act5{
+    background-color: #FF0277;
+}
+.like{
+    width: 80px;
+    height: 80px;
+    background-color: white;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 100px;
+    position: absolute;
+    top: -10%;
+    left: 70%;
+}
+.like img{
+    width: 30px;
+    height: 30px;
+}

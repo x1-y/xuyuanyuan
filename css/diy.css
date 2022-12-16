@@ -1,0 +1,57 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+li{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+body{
+    background-color: #00BAAD;
+}
+.logo{}
+
+.text{
+    width: 90%;
+    margin: 0 auto;
+}
+
+
+.order{
+    width: 100%;
+    height: 53px;
+    // background-color: #21223B;
+    text-align: center;
+}
+.order button{
+    width: 90%;
+    height: 53px;
+    background-color: #21223B;
+    border: none;
+    border-radius: 30px;
+    color: white;
+    font-size: 12px;
+    outline:none;
+    margin-top: 20px;
+}
+.order button a{
+    color: white;
+}
+.logo{
+    width: 100%;
+    text-align: center;
+}
+.back {
+    margin: 15px;
+    width: 30px;
+    height: 30px;
+}
+
+.back a img {
+    width: 30px;
+    height: 30px;
+}

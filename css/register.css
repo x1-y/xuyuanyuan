@@ -1,0 +1,117 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+body {
+    background-color: #00BAAD;
+}
+
+.back {
+    margin: 15px;
+    width: 30px;
+    height: 30px;
+}
+
+.back a img {
+    width: 30px;
+    height: 30px;
+}
+
+.title {
+    font-size: 28px;
+    color: #575DFB;
+    margin-left: 20px;
+}
+
+.text {
+    font-weight: 500;
+    margin: 20px;
+
+}
+
+.text span {
+    color: #575DFB;
+}
+
+.text a {
+    font-weight: 700;
+}
+
+.form {
+    width: 100%;
+
+
+}
+
+.form p {
+    margin-left: 15px;
+    font-size: 500;
+    margin-top: 20px;
+}
+
+.form input {
+    width: 300px;
+    height: 51px;
+    border: none;
+    outline: none;
+    background-color: #00BAAD;
+    border: 2px solid #575DFB;
+    display: block;
+    margin: 10px auto;
+    border-radius: 10px;
+    // margin-top: 20px;
+    padding-left: 60px;
+    color: black;
+    font-size: 15px;
+}
+input::-webkit-input-placeholder {
+    color: black;
+}
+.email{
+    background-image: url("../img/艾特.png");
+    background-repeat: no-repeat;
+    background-size: 25px;
+    background-position: 20px;
+}
+.name{
+    background-image: url("../img/我的\ \(2\).png");
+    background-repeat: no-repeat;
+    background-size: 25px;
+    background-position: 20px;
+}
+.psw{
+    background-image: url("../img/解锁.png");
+    background-repeat: no-repeat;
+    background-size: 25px;
+    background-position: 20px;
+}
+.order{
+    width: 100%;
+    height: 53px;
+    // background-color: #21223B;
+    text-align: center;
+}
+.order button{
+    width: 90%;
+    height: 53px;
+    background-color: #575DFB;
+    border: none;
+    border-radius: 30px;
+    color: white;
+    font-size: 18px;
+    outline:none;
+    margin-top: 20px;
+}
+.order button a{
+    color: white;
+}

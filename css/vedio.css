@@ -1,0 +1,37 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+body {
+    background-color: #00BAAD;
+}
+.title{
+    margin: 30px auto;
+    width: 177px;
+    font-size: 20px;
+}
+.video{
+    width: 90%;
+    margin: 0 auto;
+    display: block;
+}
+.back {
+    margin: 15px;
+    width: 30px;
+    height: 30px;
+}
+
+.back a img {
+    width: 30px;
+    height: 30px;
+}
